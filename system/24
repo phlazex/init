@@ -1,0 +1,1 @@
+dpkg --get-selections | grep install | awk '{print $1}'

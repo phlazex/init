@@ -1,0 +1,6 @@
+#!/bin/bash
+echo Hello `whoami`!
+echo You are using \'`hostname`\'
+echo Your files:
+tail ../*/*
+echo Thanks for attention!
